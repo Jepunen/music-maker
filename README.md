@@ -1,10 +1,10 @@
 <h1 align="center">
   Music maker documentation
 </h1>
-<h3 align="center">
+<h2 align="center">
   Jere Puurunen
-</h3>
-
+</h2>
+<br>
 The project's base was the music maker source provided in week 3. I started by removing the radio track selectors since they’re not needed to select the tracks. After that, I started implementing the drag n drop feature, allowing the user to grab a sample button and drop it in any of the tracks. Drag and drop is implemented using the dataTransfer (https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer) API.
 
 The next thing I started implementing was the adjustable volume for each track. I ended up using the input type range element since it’s easy to understand what it does even without a label, and it’s pretty easy to implement. The slider is set to step between 5% volume levels.
