@@ -11,7 +11,7 @@ Users can add as many tracks as they wish and adjust the volume etc. for each tr
 I also wanted to implement interactive play, pause and reset buttons that are only shown to the user when they’re relevant. For example, the pause button is hidden as long as nothing is playing, and when something is playing, the user doesn’t need the start button so it’s hidden. The reset button is only shown when there is either music playing or paused, and it removes all of the sample blocks from the tracks and the state of play/pause buttons.
 
 | Feature | Points |
-| ------- | ------ |
+| :-----: | :----: |
 | Well written report | 2 |
 | Application is responsive and can be used on both desktop and mobile environment | 4 |
 | Application works on Firefox, Safari, Edge, and Chrome | 2 |
