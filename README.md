@@ -14,7 +14,6 @@ I also wanted to implement interactive play, pause and reset buttons that are on
 | Feature | Points |
 | ------- | ------ |
 | Well written report | 2 |
-| ------- | ------ |
 | Application is responsive and can be used on both desktop and mobile environment | 4 |
 | ------- | ------ |
 | ------- | ------ |
