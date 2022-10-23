@@ -1,4 +1,7 @@
-<h1 align="center">Music maker documentation<h1/> <br> Jere Puurunen
+<h1 align="center">
+  Music maker documentation
+  </h1> <br> 
+  Jere Puurunen
 
 The project's base was the music maker source provided in week 3. I started by removing the radio track selectors since they’re not needed to select the tracks. After that, I started implementing the drag n drop feature, allowing the user to grab a sample button and drop it in any of the tracks. Drag and drop is implemented using the dataTransfer (https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer) API.
 
