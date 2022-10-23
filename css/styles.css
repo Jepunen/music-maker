@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+:root {
+  --main-color: #000000;
+  --second-color: #626262;
+  --main-accent: #760000;
+}
+
+body {
+  background: #1b1b1b;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: "Fredoka One", cursive;
+  letter-spacing: 2px;
+  color: white;
+}
+
+button,
+input {
+  border: 1px solid var(--main-color);
+  background-color: var(--main-color);
+  padding: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+input[type="file"] {
+  padding: 2px;
+}
+
+.on-track-sample:hover {
+  color: white;
+  z-index: 1;
+}
+
+.on-track-sample {
+  background-color: #760000;
+  border: 2px solid black;
+  margin-inline: 3px;
+  margin-block: 1px;
+  color: transparent;
+  z-index: 0;
+  max-width: 100%;
+  min-width: 2%;
+}
+
+.dragging {
+  opacity: 50%;
+}
+
+#info-div {
+  display: inline-block;
+  background-color: transparent;
+  border-right: 2px solid var(--second-color);
+  padding-right: 10px;
+  margin-right: 5px;
+  height: 100%;
+  border-radius: 10px;
+  display: grid;
+}
+/* Needed for firefox */
+#info-div input {
+  width: 80%;
+}
+
+#addButtons button:hover {
+  background-color: #ffffff;
+  color: var(--main-color);
+}
+
+#addButtons button {
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#addButtons {
+  padding-top: 1em;
+}
+
+#player {
+  padding: auto;
+  margin: auto;
+}
+
+#tracks {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 160px auto;
+}
+
+#tracks > div[id*="track"] {
+  display: inline-flex;
+  background-color: transparent;
+  border: 2px solid var(--second-color);
+  height: 60px;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+#tracks > div h2 {
+  text-align: center;
+  margin-block: auto;
+  display: inline-block;
+  color: white;
+  width: auto;
+}
+
+#tracks > div > div > div {
+  background: linear-gradient(90deg, #cc0088aa, var(--main-color));
+  color: #ffffff;
+  padding: 2px 5px 2px 10px;
+  margin: 0px 0px 5px -5px;
+  width: 100px;
+  border-radius: 0 0 15px 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 3px 3px 3px #cccccc;
+}
+
+#tracks > div > div > div:first-of-type {
+  margin: 0 0 5px 5px;
+}
+
+@media (max-width: 599px) {
+
+  #tracks {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 120px auto;
+  }
+
+  #info-div {
+    display: inline-block;
+    width: 100px;
+    background-color: transparent;
+    border-right: 2px solid var(--second-color);
+    padding-right: 10px;
+    margin-right: 5px;
+    height: 100%;
+    border-radius: 10px;
+    display: grid;
+  }
+
+  #addButtons button {
+    margin: 1px;
+  }
+  #info-div input {
+    max-width: 5em;
+  }
+}
+
+@media (max-width: 399px) {
+
+  #addButtons {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+}
