@@ -15,16 +15,15 @@ I also wanted to implement interactive play, pause and reset buttons that are on
 | ------- | ------ |
 | Well written report | 2 |
 | Application is responsive and can be used on both desktop and mobile environment | 4 |
-| ------- | ------ |
-| ------- | ------ |
-| ------- | ------ |
-| ------- | ------ |
-| ------- | ------ |
-| ------- | ------ |
-| ------- | ------ |
-| ------- | ------ |
-| ------- | ------ |
-| ------- | ------ |
+| Application works on Firefox, Safari, Edge, and Chrome | 2 |
+| Drag’n’drop new instruments to the tracks (with the mouse or touch screen) | 4 |
+| Adjustable volume per track | 2 |
+| Instrument's length is visualized on the track | 4 |
+| Users can add as many tracks as they see fit | 1 |
+| Interactive play/play/reset | 1 |
+| Sample length calculated in seconds and displayed on hover on the track | 2 |
+| Track calculated to fill a 60s span and sample block sizes match it | 3 |
+| Total | 25 |
 
 Max points
 Well written report
