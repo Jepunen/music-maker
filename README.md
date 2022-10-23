@@ -1,5 +1,6 @@
 <h1 align="center">
-  Music maker documentation
+  Music maker documentation <br>
+  Jere Puurunen
 </h1>
 <h2 align="center">
   Jere Puurunen
